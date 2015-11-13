@@ -1,0 +1,27 @@
+/* CSS declarations go here */
+.field{
+	display: inline-block;
+	height: 50px;
+	width: 50px;
+	margin: 10px;
+	text-align: center;
+	line-height: 50px;
+	border: 1px solid #aaf;
+	background-color: #ccc;
+}
+
+.field:hover{
+	background-color: #fff;
+}
+
+.wrapper{
+	text-align: center;
+}
+
+.gameField{
+	display: inline-block;
+	margin: auto;
+	padding: 10px;
+	text-align: center;
+	background-color: #ddd;
+}

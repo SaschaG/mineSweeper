@@ -1,0 +1,22 @@
+<head>
+	<title>clickerHero</title>
+</head>
+
+<body>
+	
+	<div class="wrapper">
+		<h1>Mine Sweeper</h1>
+		<div class="gameField">
+			{{>gameField}}
+		</div>
+	</div>
+</body>
+
+<template name="gameField">
+	{{#each gameField}}
+		<div id="{{id}}" class="field">{{this.text}}</div>
+		{{#if newLine}}
+			<br>
+		{{/if}}
+	{{/each}}
+</template>
